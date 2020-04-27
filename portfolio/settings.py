@@ -134,4 +134,4 @@ MEDIA_ROOT = os.path.join(
     BASE_DIR, 'media'
 )  # in this case keep media inside the project (could be anywhere, should be ignored by gitignore)
 
-MEDIA_URL = '/media/'  # so localhost/images/media/xyz
+MEDIA_URL = '/media/'  # so localhost/images/media/xyz   btw - 'media' could be ANYTHING (e.g. mymedia, etc.), but makes sense to call media
