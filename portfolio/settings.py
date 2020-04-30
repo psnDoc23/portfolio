@@ -128,6 +128,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'portfolio/static/')]
+
+STATIC_ROOT = os.path.join(
+    BASE_DIR, 'static'
+)  # in this case keep media inside the project (could be anywhere, should be ignored by gitignore)
+
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(
