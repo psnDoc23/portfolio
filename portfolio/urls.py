@@ -7,5 +7,6 @@ import jobs.views
 urlpatterns = [
     path('admin/', admin.site.urls, name='home'),
     path('blog/', include('blog.urls')),  # forward blog requests to blog app
+    # path('jobs/', include('jobs.urls')),  # forward jobs requests to jobs app
     path('', jobs.views.home),  # app.object.function (jobs, views, home)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
