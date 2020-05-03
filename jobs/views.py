@@ -9,3 +9,4 @@ def home(request):
         'jobs': jobs,
         'persons': persons
     })
+
