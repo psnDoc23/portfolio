@@ -9,7 +9,7 @@ verify_ssl = true
 django = "==2.2"
 psycopg2-binary = "*"
 yapf = "*"
-pillow = "==5.0.0"
+pillow = "==8.1.1"
 
 [requires]
 python_version = "3.6"
